@@ -13,5 +13,10 @@ public class Main {
         // Displaying updated information
         System.out.println("\nUpdated Information:");
         person.displayInfo();
+       // Use the getter method to retrieve the name
+        String personName = person.getName();
+
+        // Display the retrieved name
+        System.out.println("Person's Name: " + personName);
     }
 }
